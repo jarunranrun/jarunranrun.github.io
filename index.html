@@ -3,83 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction - jarunranrun.me</title>
+    <title>Jarunranrun's Profile - jarunranrun.me</title>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #ffffff;
+            color: #000000;
             margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .container {
-            max-width: 90%;
-            width: 100%;
             padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            box-sizing: border-box;
         }
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-            color: #ff6600;
+            color: #0000ff;
+            text-align: center;
+            font-size: 36px;
+            text-decoration: underline;
         }
         p {
-            font-size: 1.2em;
-            margin-bottom: 30px;
+            font-size: 18px;
+            text-align: center;
         }
-        .icon {
-            font-size: 50px;
-            margin-bottom: 20px;
-            animation: bounce 2s infinite;
+        .links {
+            text-align: center;
+            margin-top: 20px;
         }
-        @keyframes bounce {
-            0%, 100% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
+        .links a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            font-size: 18px;
+            color: #0000ff;
         }
-
-        /* Responsive design */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
-            p {
-                font-size: 1em;
-            }
-            .icon {
-                font-size: 40px;
-            }
+        .links a:hover {
+            text-decoration: underline;
         }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.5em;
-            }
-            p {
-                font-size: 0.9em;
-            }
-            .icon {
-                font-size: 35px;
-            }
+        .links a i {
+            margin-right: 5px;
+        }
+        .container {
+            border: 1px solid #000000;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #e0e0e0;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="icon">🚧</div>
-        <h1>jarunranrun.me is Under Construction</h1>
-        <p>Our website is currently under construction. We'll be here soon with our new awesome site.</p>
+        <h1>Jarunranrun</h1>
+        <p>Welcome to my profile on jarunranrun.me!</p>
+        <div class="links">
+            <a href="https://github.com/jarunranrun" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/jarunchairat" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:jarunchairat.wos@gmail.com">
+                <i class="fas fa-envelope"></i> Gmail
+            </a>
+        </div>
     </div>
 </body>
 </html>
